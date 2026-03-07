@@ -1,23 +1,56 @@
-# Compiled class file
-*.class
+# dependencies
+node_modules/
+.npm/
+.pnpm-store/
 
-# Log file
+# build output
+dev-ops/nginx/html/
+dist/
+coverage/
+
+# vuepress cache
+src/.vuepress/.cache/
+src/.vuepress/.temp/
+.cache/
+.eslintcache
+.stylelintcache
+
+# logs
 *.log
+*.out
+*.err
+*.pid
+devserver*.log
+dev_temp.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dev-ops/nginx/logs/
 
-# BlueJ files
-*.ctxt
+# IDE and editor
+.idea/
+.vscode/
+.history/
+*.suo
+*.user
+*.userossc
+*.sln.docstates
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# OS files
+.DS_Store
+Thumbs.db
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# local env and secrets
+.env
+.env.*
+*.pem
+*.key
+*.crt
+dev-ops/nginx/ssl/
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# temporary files
+*.tmp
+*.temp
+*.swp
+*.swo

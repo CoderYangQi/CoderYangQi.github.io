@@ -18,6 +18,8 @@ export default hopeTheme({
 
   docsDir: "src",
 
+  pageInfo: ["Author", "Original", "PageView", "ReadingTime", "Category", "Tag"],
+
   displayFooter: true,
 
   locales: {

@@ -22,4 +22,4 @@ category:
   - Built an efficient 3D reconstruction tool capable of handling terabyte-scale image data
   - Developed a new 3D image registration method
   - Obtained an invention patent
-  - Co-authored a high-level paper intended for a *Cell* sub-journal
+  - Published a paper in *Cell* as a co-first author

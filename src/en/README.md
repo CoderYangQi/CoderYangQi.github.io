@@ -52,7 +52,7 @@ copyright: false
 
 ::: tip
 
-I am a co-first author of a paper accepted by *Cell*. During my undergraduate studies, I built an Arduino and Raspberry Pi based pest detection device and won a provincial silver award in the Challenge Cup. I also published a first-author paper on soybean area extraction based on improved U-Net segmentation of UAV fused imagery.
+I published a paper in *Cell* as a co-first author. During my undergraduate studies, I built an Arduino and Raspberry Pi based pest detection device and won a provincial silver award in the Challenge Cup. I also published a first-author paper on soybean area extraction based on improved U-Net segmentation of UAV fused imagery.
 During graduate school, I worked on microscopic imaging, 3D reconstruction algorithms, and hardware-related research and development.
 During my internships at iFLYTEK and SenseTime, I worked on QR code recognition on the CSK6 chip and chess-robot target detection, optimization, and deployment.
 

@@ -17,97 +17,99 @@ category:
 - Name: Yang Qi
 - Phone: 13672221869
 - Email: yangqiustc@mail.ustc.edu.cn
-- Political Affiliation: Member of the Communist Party of China
+- Current Position: Assistant Researcher in Automation, Baosteel Central Research Institute (July 2025–Present)
 
 ## Education
 
-- **University of Science and Technology of China | M.Eng. in Software Engineering**
-  - Graduation: 2025.07
-  - Research Focus: 3D microscopic image registration, reconstruction, and software development
-  - Core Courses: C/C++, Java, Introduction to Algorithms, Advanced Software Engineering, Advanced Computer Networks
+- **University of Science and Technology of China｜M.Eng. in Software Engineering**
+  - **Period**: September 2022–June 2025
+  - **Research Focus**: 3D microscopic image registration, reconstruction, and software development
+  - **Core Courses**: C/C++, Java, Introduction to Algorithms, Advanced Software Engineering, Advanced Computer Networks
 
-- **Anhui University | B.Eng. in Electronic Information Engineering**
-  - Period: 2018.09 ~ 2022.07
-  - Core Courses: Signals and Systems, Microcontroller Principles, Digital Signal Processing, Digital Image Processing
+- **Anhui University｜B.Eng. in Electronic Information Engineering**
+  - **Period**: September 2018–June 2022
+  - **Core Courses**: Signals and Systems, Microcontroller Principles, Digital Signal Processing, Digital Image Processing
+
+## Publications
+
+### 1. [High-speed mapping of whole-mouse peripheral nerves at subcellular resolution](https://doi.org/10.1016/j.cell.2025.06.011)
+
+- **Authors**: Mei-Yu Shi<sup>†</sup>, Yuchen Yao<sup>†</sup>, Miao Wang<sup>†</sup>, **Qi Yang**<sup>†</sup>, Lufeng Ding, Rui Li, Yuanyuan Li, Haimeng Huang, Chao-Yu Yang, Zhao Zhou, Zhenxiang Zhu, Pengjie Wen, Fangling Dai, Xiaohui Zeng, Ke-Ming Zhang, Yuhong Guo, Zi-An Sun, Huanhuan Xia, Zhenhua Ren, Yusuf Ozgur Cakmak, Ming Zhang, Fuqiang Xu, Lei Qu, Qingyuan Zhu, Pak-Ming Lau, Cheng Xu, Guo-Qiang Bi
+- **Journal**: *Cell*, 2025, 188(14): 3897–3915.e20
+- **Authorship**: Co-first Author / Equal Contribution
+- **Contributions**: Led the implementation and code development of methods for 3D microscopic image registration and reconstruction. Contributed to the large-scale microscopy processing and reconstruction pipeline, providing algorithmic and engineering support for high-precision reconstruction of terabyte-scale whole-mouse peripheral nerve data.
+
+### 2. [Extraction of soybean planting area based on feature fusion technology of multi-source low altitude unmanned aerial vehicle images](https://doi.org/10.1016/j.ecoinf.2022.101715)
+
+- **Authors**: **Qi Yang**, Bao She, Linsheng Huang, Yuying Yang, Gan Zhang, Mai Zhang, Qi Hong, Dongyan Zhang
+- **Journal**: *Ecological Informatics*, 2022, 70: 101715
+- **Authorship**: First Author
+- **Contributions**: Designed the research methodology, implemented the algorithms and software, and drafted the manuscript. Developed a soybean planting area extraction method based on vegetation-index feature fusion and U-Net semantic segmentation, and conducted comparative experiments across sensor and algorithm configurations.
 
 ## Honors and Awards
 
 - [**Baosteel Outstanding Student Special Prize**](https://dy.ahu.edu.cn/2021/1220/c11063a277406/page.htm)
 - **National Scholarship**
-- Provincial Silver Award, "Internet+" Innovation and Entrepreneurship Competition
-- Provincial Silver Award, "Challenge Cup" Business Plan Competition
+- Provincial Silver Award, “Internet+” College Student Innovation and Entrepreneurship Competition
+- Provincial Silver Award, “Challenge Cup” Business Plan Competition
 - National Third Prize, iCAN International Innovation and Entrepreneurship Competition
 
 ## Technical Skills
 
-- Proficient in `Python`, `C/C++`, and `Java`, with hands-on experience in algorithm implementation, engineering development, and cross-language system integration.
-- Proficient in `PyTorch` and `TensorFlow`, with experience in image detection, image segmentation, motion tracking, image registration, and self-supervised learning.
-- Familiar with `Arduino`, Raspberry Pi, and hardware-software co-development, including device control, data processing, and upper-computer integration using `C/C++`.
-- Strong understanding of `Spring Boot`, common Java design patterns, and `DDD`-based architecture for building scalable and maintainable backend services.
-- Familiar with `Docker`, common Linux operations, and `Nginx` deployment practices including reverse proxy, load balancing, and static/dynamic resource separation.
-- Experienced with `PyCharm`, `IntelliJ IDEA`, `Visual Studio Code`, `Git`, and `Maven`.
+- Proficient in `Python`, `C/C++`, and `Java`, with experience in algorithm implementation, engineering development, and cross-language interface integration.
+- Proficient in `PyTorch` and `TensorFlow`, with hands-on experience in object detection, image segmentation, motion tracking, image registration, and self-supervised learning.
+- Experienced in hardware-software co-development with `Arduino` and Raspberry Pi, including motion control, data processing, and host-computer integration using `C/C++`.
+- Familiar with `Docker`, common Linux operations, and `Nginx` deployment technologies, including reverse proxying, load balancing, and static/dynamic resource separation.
+- Proficient with `PyCharm`, `IntelliJ IDEA`, `Visual Studio Code`, `Git`, and `Maven`.
 
 ## Internship Experience
 
-### iFLYTEK
+### iFLYTEK｜IoT Assistant Engineer Intern
 
-- Position: IoT Assistant Engineer Intern
-- Responsibilities: Developed QR code detection and decoding interfaces for the `CSK6` chip, including model inference, algorithm interface packaging, and `C/C++` engineering integration.
+- Developed QR code detection and decoding interfaces for the `CSK6` chip, covering model inference, algorithm interface encapsulation, and `C/C++` engineering integration.
+- Built an end-to-end pipeline spanning model quantization, on-device inference, QR code localization, and decoding.
 
-### SenseTime
+### SenseTime｜Algorithm Engineer Intern
 
-- Position: Algorithm Engineer Intern
-- Project: Binocular chess-piece target detection and deployment
-- Core Technologies: Target detection, model lightweighting, `ONNX` inference, and `C++` engineering deployment
-- Responsibilities: Trained, inferred, and productionized the `MMYOLOv8` model, then deployed it to the `RV1126` platform.
+- Contributed to binocular chess-piece detection and deployment, with responsibility for training, inference, and engineering adaptation of a `YOLOv8` model within the `MMYOLO` framework.
+- Completed model lightweighting, `ONNX` inference adaptation, and `C++` integration, and deployed the model to the `RV1126` platform.
 
 ## Project Experience
 
 ### 1. 3D Microscopic Image Reconstruction
 
-- Tech Stack: `Python`, `PyQt`, `Elastix`, `PyTorch`, `B-Spline FFD`, `3D Swin-Transformer`
-- Project Description:
-  - Built a full reconstruction pipeline for `TB`-scale 3D microscopic image data to address slice misalignment, optical distortion, and non-rigid registration across sections, covering intra-slice stitching, cross-channel alignment, inter-slice registration, and 3D visualization.
-- Key Contributions:
-  - Implemented non-rigid registration with `Elastix` together with a self-developed `PyTorch` registration optimization algorithm.
-  - Iterated the solution to the dual-stage `DUST (Dual U-Net with Swin-Transformer)` model, which progressively refines the deformation field to improve registration accuracy and stability.
-  - Developed a `PyQt`-based reconstruction tool to support large-scale image processing workflows.
-- Outcomes:
-  - Developed a high-efficiency reconstruction tool capable of processing `TB`-scale image data. [Reconstruction Code](https://github.com/CoderYangQi/Whole-body_Reconstruction)
-  - Co-first author of a ***Cell*** paper, with primary responsibility for method implementation and code development. [High-speed mapping of whole-mouse peripheral nerves at subcellular resolution](http://dx.doi.org/10.1016/j.cell.2025.06.011)
-  - Granted invention patent for a 3D biological sample microscopic image reconstruction method (`CN118115694A`).
+- **Tech Stack**: `Python`, `PyQt`, `Elastix`, `PyTorch`, `B-Spline FFD`, `3D Swin-Transformer`
+- **Overview**: Built a complete reconstruction pipeline for terabyte-scale 3D microscopic image data, addressing slice misalignment, optical distortion, and inter-slice non-rigid registration through intra-slice stitching, cross-channel alignment, inter-slice registration, and 3D visualization.
+- **Key Contributions**:
+  - Combined `Elastix` with a self-developed `PyTorch` registration optimization algorithm to implement non-rigid registration for large-scale biological sample reconstruction.
+  - Designed the dual-stage `DUST (Dual U-Net with Swin-Transformer)` model to progressively refine deformation fields and improve registration accuracy and stability.
+  - Developed a `PyQt`-based 3D reconstruction tool, enabling the large-scale image processing workflow to be used in practice.
+- **Outcomes**:
+  - Developed an efficient reconstruction tool supporting terabyte-scale image processing. [Reconstruction Code](https://github.com/CoderYangQi/Whole-body_Reconstruction)
+  - Published a paper in *Cell* as a co-first author, with primary responsibility for the associated method implementation and code development.
+  - Granted an invention patent for a 3D biological sample microscopic image reconstruction method (`CN118115694A`).
 
-### 2. Calcium Imaging Tracking Device Application
+### 2. Calcium Imaging Motion-Following System
 
-- Tech Stack: `Arduino`, `FPGA`, `SCARA` robotic arm, `SLEAP`, and video motion tracking
-- Project Description: Built a coordinated system linking a head-mounted imaging device, cable untwisting mechanism, and robotic arm to support calcium imaging in freely moving mice, while synchronously collecting behavioral video and brain-region imaging data for downstream analysis.
-- Responsibilities:
-  - Deployed a motion tracking algorithm for real-time video analysis. [GitHub Code](https://github.com/CoderYangQi/Live_Tracking); [Gitee Code](https://gitee.com/yqustc/MotionDetection)
-  - Used `Arduino` to control motor movement and cable untwisting based on mouse position, expanding the effective movement range of the tethered head-mounted device.
-  - Combined calcium imaging signals with behavioral keypoints for behavior encoding and classification analysis.
+- **Tech Stack**: `Arduino`, `SCARA` robotic arm, motion controller, `DeepLabCut`, video motion tracking
+- **Overview**: Built a coordinated system connecting a head-mounted imaging device, cable untwisting mechanism, and robotic arm to support calcium imaging of freely moving mice. Synchronously collected behavioral video and brain-region imaging data for downstream behavioral analysis.
+- **Key Contributions**:
+  - Deployed `DeepLabCut` for real-time motion tracking in video streams. [GitHub Code](https://github.com/CoderYangQi/Live_Tracking); [Gitee Code](https://gitee.com/yqustc/MotionDetection)
+  - Used `Arduino` to control motor movement and cable untwisting based on mouse position, extending the effective movement range supported by the head-mounted device.
+  - Combined calcium imaging signals with behavioral keypoints for mouse behavior encoding and classification.
 
-### 3. QR Code Detection Function
+### 3. On-Device QR Code Detection and Decoding for CSK6
 
-- Tech Stack: `RTMDet-tiny`, `Linger`, `Thinker`, `C/C++`, `Quirc`
-- Project Description: Built a QR code solution for the `CSK6` chip by first detecting the QR code region and then decoding it with the `Quirc` library.
-- Key Contributions:
-  - Used `RTMDet-tiny` from `MMDetection` as the QR code detector.
-  - Applied `Linger` quantization and `Thinker` inference deployment to compress the model to roughly `100 KB`.
-  - Implemented the algorithm interfaces and engineering integration in `C/C++`, completing the end-to-end detection and decoding pipeline.
-- Solution Notes:
-  - [Solution Notes](https://smart-brain.feishu.cn/docx/QtcXdvoQToKLd9xCT7BcTX4XnSb?from=from_copylink)
+- **Tech Stack**: `RTMDet-tiny`, `Linger`, `Thinker`, `C/C++`, `Quirc`
+- **Overview**: Built an on-device QR code detection and decoding solution for the `CSK6` chip, using an object detector to localize QR code regions and `Quirc` for decoding.
+- **Key Contributions**:
+  - Selected `RTMDet-tiny` from `MMDetection` as the QR code detector.
+  - Quantized the model with `Linger` and deployed it for on-device inference with `Thinker`, reducing the model size to approximately `100 KB`.
+  - Implemented algorithm interfaces and engineering integration in `C/C++`, completing the QR code detection, localization, and decoding pipeline.
+- **Solution Notes**: [Detailed Solution Notes](https://smart-brain.feishu.cn/docx/QtcXdvoQToKLd9xCT7BcTX4XnSb?from=from_copylink)
 
-### 4. UAV-Based Soybean Area Estimation
+### 4. Soybean Planting Area Estimation from UAV Imagery
 
-- Tech Stack: Semantic segmentation, vegetation index fusion, and `U-Net`
-- Project Description: Applied an improved `U-Net` model to fused UAV imagery for soybean planting area estimation.
-- Outcomes: First-author `SCI` paper (IF 5.1), [Extraction of soybean planting area based on feature fusion technology of multi-source low altitude unmanned aerial vehicle images](https://doi.org/10.1016/j.ecoinf.2022.101715)
-
-### 5. OpenAI Application Service for Workflow Efficiency
-
-- Tech Stack: `Spring Boot`, `MyBatis`, `OKHttp3`, `OpenAI SDK/API`, `React`, `TypeScript`
-- Project Description: Designed an AI application service based on microservices and `DDD`, supporting `OpenAI SDK / API` integration, WeChat public account authentication, and frontend application access.
-- Key Contributions:
-  - Split the system into modules such as `OpenAI SDK`, `OpenAI API`, and application services, and designed a configurable scenario integration approach.
-  - Encapsulated multi-model invocation, session management, and backend service APIs to support fast integration across business scenarios.
-  - Built the `React` frontend and integrated it with backend services to provide a practical AI-assisted productivity tool.
+- **Tech Stack**: Semantic segmentation, vegetation-index fusion, `U-Net`
+- **Overview**: Developed a semantic segmentation method based on vegetation-index feature fusion and an improved `U-Net` to extract soybean planting regions and estimate planting area from multi-source low-altitude UAV imagery.
+- **Outcome**: Published the study in *Ecological Informatics* as the first author. [View Paper](https://doi.org/10.1016/j.ecoinf.2022.101715)

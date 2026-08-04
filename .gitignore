@@ -47,7 +47,8 @@ Thumbs.db
 *.pem
 *.key
 *.crt
-dev-ops/nginx/ssl/
+dev-ops/nginx/ssl/*
+!dev-ops/nginx/ssl/.gitkeep
 
 # temporary files
 *.tmp

@@ -87,7 +87,7 @@ category:
 - **Outcomes**:
   - Developed an efficient reconstruction tool supporting terabyte-scale image processing. [Reconstruction Code](https://github.com/CoderYangQi/Whole-body_Reconstruction)
   - Published a paper in *Cell* as a co-first author, with primary responsibility for the associated method implementation and code development.
-  - Granted an invention patent for a 3D biological sample microscopic image reconstruction method (`CN118115694A`).
+  - Granted an invention patent: Reconstruction method of three-dimensional microscopic image of three-dimensional biological sample (`CN118115694A`).
 
 ### 2. Calcium Imaging Motion-Following System
 

@@ -58,7 +58,7 @@ category:
 
 - Proficient in `Python`, `C/C++`, and `Java`, with experience in algorithm implementation, engineering development, and cross-language interface integration.
 - Proficient in `PyTorch` and `TensorFlow`, with hands-on experience in object detection, image segmentation, motion tracking, image registration, and self-supervised learning.
-- Experienced in hardware-software co-development with `Arduino` and Raspberry Pi, including motion control, data processing, and host-computer integration using `C/C++`.
+- Experienced in embedded and hardware-software co-development with `STM32`, `FreeRTOS`, `Arduino`, and Raspberry Pi, including real-time task design, sensor integration, `PID` motion control, wireless communication, and `C/C++` system integration.
 - Familiar with `Docker`, common Linux operations, and `Nginx` deployment technologies, including reverse proxying, load balancing, and static/dynamic resource separation.
 - Proficient with `PyCharm`, `IntelliJ IDEA`, `Visual Studio Code`, `Git`, and `Maven`.
 
@@ -98,7 +98,17 @@ category:
   - Used `Arduino` to control motor movement and cable untwisting based on mouse position, extending the effective movement range supported by the head-mounted device.
   - Combined calcium imaging signals with behavioral keypoints for mouse behavior encoding and classification.
 
-### 3. On-Device QR Code Detection and Decoding for CSK6
+### 3. Quadrotor UAV Flight-Control and Remote-Control System
+
+- **Tech Stack**: `STM32F103C8T6`, `FreeRTOS`, `MPU6050`, `VL53L1X`, cascaded `PID` control, `SI24R1`, `OLED`, `C`
+- **Overview**: Completed a hands-on embedded engineering project consisting of separate quadrotor flight-controller and handheld-controller firmware. The system integrated attitude sensing and estimation, motor control, laser-based altitude sensing, wireless commands, safety-state handling, and real-time user input and display.
+- **Key Contributions**:
+  - Implemented a `6 ms` flight-control loop (approximately `166.7 Hz`) covering MPU6050 sampling, filtering, quaternion-based attitude estimation, cascaded attitude/rate `PID` control, four-motor mixing, and `18 kHz` PWM output.
+  - Integrated `VL53L1X` distance sensing and altitude control, together with flight states for idle, normal flight, altitude hold, and loss-of-link failsafe descent.
+  - Built a `2.4 GHz` control link with `SI24R1`, using a fixed `17-byte` command frame transmitted every `6 ms`; implemented joystick acquisition with `ADC + DMA`, button-based calibration and mode switching, and an OLED control display.
+  - Organized flight and handheld-controller functions as prioritized `FreeRTOS` tasks for control, communication, sensing, user input, display, and power management.
+
+### 4. On-Device QR Code Detection and Decoding for CSK6
 
 - **Tech Stack**: `RTMDet-tiny`, `Linger`, `Thinker`, `C/C++`, `Quirc`
 - **Overview**: Built an on-device QR code detection and decoding solution for the `CSK6` chip, using an object detector to localize QR code regions and `Quirc` for decoding.
@@ -108,7 +118,7 @@ category:
   - Implemented algorithm interfaces and engineering integration in `C/C++`, completing the QR code detection, localization, and decoding pipeline.
 - **Solution Notes**: [Detailed Solution Notes](https://smart-brain.feishu.cn/docx/QtcXdvoQToKLd9xCT7BcTX4XnSb?from=from_copylink)
 
-### 4. Soybean Planting Area Estimation from UAV Imagery
+### 5. Soybean Planting Area Estimation from UAV Imagery
 
 - **Tech Stack**: Semantic segmentation, vegetation-index fusion, `U-Net`
 - **Overview**: Developed a semantic segmentation method based on vegetation-index feature fusion and an improved `U-Net` to extract soybean planting regions and estimate planting area from multi-source low-altitude UAV imagery.

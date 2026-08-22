@@ -5,6 +5,7 @@ node_modules/
 
 # build output
 dev-ops/nginx/html/
+github-pages/
 dist/
 coverage/
 *.pdf

@@ -9,6 +9,10 @@ github-pages/
 dist/
 coverage/
 *.pdf
+
+# Gitee-only application materials
+/CV/
+
 # vuepress cache
 src/.vuepress/.cache/
 src/.vuepress/.temp/
